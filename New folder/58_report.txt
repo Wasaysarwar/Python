@@ -1,0 +1,7 @@
+------Marksheet------- 
+Name :  ibad
+Roll Number :  58
+Subject 1 :  70
+Subject 2 :  90
+Subject 3 :  85
+percentage :  81.67 %

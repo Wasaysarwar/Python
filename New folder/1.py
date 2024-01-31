@@ -1,15 +1,8 @@
-import pyautogui
-import time
+num = int(input("Enter any number to save its table: "))
 
-# Give some time to focus on the text input field
-time.sleep(5)
+with open("table.txt","w") as file:
 
-# Text to print
-text_to_print = ("*Happy BirthDay Janu*")
-
-# Number of times to print the text
-num_prints = 500
-
-
-for i in range(num_prints):
-    pyautogui.typewrite(text_to_print + '\n')
+    file.write(f"\nTable of {num}:\n")
+    
+    for i in range(1,11):
+        file.write(f"{num} * {i} = {num*i}\n")
